@@ -1,0 +1,119 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    
+}
+
+.container {
+    padding: 0% 15%;
+}
+
+#title {
+    background-color: #ff4c68;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-items {
+    padding: 0 18px;
+}
+
+#button-white {
+    border: 2px solid white;
+    color: white;
+    margin-left: 10px;
+}
+
+#button-white:hover {
+    filter: brightness(120%);
+    background-color: black;
+    border: none;
+}
+
+#features {
+    padding: 7% 15%;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: #afafaf;
+}
+
+#testimonial {
+    padding: 20px 0px;
+    text-align: center;
+    background-color: #ff4c68;
+}
+
+#testimonial img {
+    width: 40%;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.0rem;
+    color: white;
+}
+
+em {
+    color: white;
+}
+
+#logos img {
+    width: 20%;
+}
+
+
+@media screen and (max-width:600px) {
+    #man {
+        width: 302px !important;
+    }
+
+    h5 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:1024px) {
+    .container {
+        padding: 0 10%;
+    }
+
+    #man {
+        width: 310px !important;
+    }
+}
+
+@media screen and (min-width:278px) and (max-width:281px) {
+    #man {
+        width: 220px !important;
+    }
+
+    .container {
+        padding: 0 5%;
+    }
+}
