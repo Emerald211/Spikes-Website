@@ -12,6 +12,7 @@ body {
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
+    color: white;
     
 }
 
@@ -64,7 +65,7 @@ p {
 }
 
 #testimonial img {
-    width: 40%;
+    width: 20%;
     border-radius: 50%;
     margin-top: 40px;
 }
@@ -87,6 +88,20 @@ em {
     width: 20%;
 }
 
+.get-started {
+    background-color: #ff4c68;
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#social a {
+    margin: 15px;
+    color: #ff4c68;
+}
+
 
 @media screen and (max-width:600px) {
     #man {
@@ -96,6 +111,16 @@ em {
     h5 {
         font-size: 2rem;
     }
+
+     em {
+         font-size: 0.7rem;
+     }
+
+     #aa h6 {
+         margin-top: 20px;
+         margin-left: 20px;
+     }
+    
 }
 
 @media screen and (min-width:601px) and (max-width:1024px) {
